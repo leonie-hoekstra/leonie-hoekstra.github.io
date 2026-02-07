@@ -890,6 +890,45 @@ section,
   transform: scale(1.1);
 }
 
+.portfolio .portfolio-content video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.3s;
+}
+
+.portfolio .portfolio-content:hover video {
+  transform: scale(1.1);
+}
+
+.portfolio .quadriga-logo-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  background: #f5f5f5;
+}
+
+.portfolio .quadriga-logo-wrapper img {
+  max-height: 160px;
+  width: auto;
+}
+
+.portfolio .badge-in-progress {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  background: var(--accent-color);
+  color: #fff;
+  padding: 5px 12px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 3px;
+  text-transform: uppercase;
+  z-index: 2;
+}
+
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/

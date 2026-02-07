@@ -1,5 +1,7 @@
-# Video files
-*.mp4
+# Large original videos (use compressed versions instead)
+assets/img/my_photos/RobotTeam/passing_ball.mp4
+assets/img/my_photos/University Projects/ML_robots.mp4
+assets/img/my_photos/University Projects/midas_yolo.mp4
 
 # Raw photo files
 *.ARW
